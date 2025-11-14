@@ -1,6 +1,6 @@
-📚 LeetCode Daily Practice
+📚 LeetCode/HackerRank Daily Practice
 
-This repository contains my solutions to various LeetCode problems, organized by day and difficulty.
+This repository contains my solutions to various LeetCode/HackerRank problems, organized by day and difficulty.
 I am currently on a mission to solve 2 problems every day for 30 days to improve my problem-solving skills and coding performance.
 
 🎯 Goal
