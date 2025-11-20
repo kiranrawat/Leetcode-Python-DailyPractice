@@ -1,11 +1,11 @@
-📚 LeetCode/HackerRank Daily Practice
+📚 NeetCode/LeetCode/HackerRank Daily Practice
 
-This repository contains my solutions to various LeetCode/HackerRank problems, organized by day and difficulty.
-I am currently on a mission to solve 2 problems every day for 30 days to improve my problem-solving skills and coding performance.
+This repository contains my solutions to various Neetcode/Leetcode problems, organized by day and difficulty. Currently I am following Neetcode 250 roadmap.
+I am currently on a mission to solve atleast 2 problems every day for 30 days to improve my problem-solving skills and coding performance.
 
 🎯 Goal
 
-- Solve 2 LeetCode problems every day
+- Solve atleast 2 NeetCode problems every day
 - Maintain consistency for 30 days
 - Track progress publicly in this repository
 - Write clean explanations + organized solutions
