@@ -15,3 +15,16 @@ def isValid(self, s: str) -> bool:
 
 # time complexity - O(n)
 # space complexity - O(n)
+
+
+# brute force approach
+def isValid(self, s: str) -> bool:
+    while '()' in s or '{}' in s or '[]' in s:
+        s = s.replace('()', '')
+        s = s.replace('{}', '')
+        s = s.replace('[]', '')
+
+    return s == ''
+
+# time complexity - O(n^2)
+# space complexity - O(n)
