@@ -5,7 +5,7 @@ class Solution:
         #     for j in range(i+1, len(nums)):
         #         if (nums[i] + nums[j]) == target:
         #             return [i, j]
-        # time complexity - O(n^2), space complexity - O(n)
+        # time complexity - O(n^2), space complexity - O(1)
 
         # second solution
         # nums = [4,5,6] , target = 10
