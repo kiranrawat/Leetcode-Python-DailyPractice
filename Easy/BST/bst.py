@@ -1,6 +1,5 @@
 def search(self, nums: List[int], target: int) -> int:
     # nums = [-1,0,2,4,6,8], target = 4
-
     low = 0
     high = len(nums) - 1
 
@@ -13,3 +12,5 @@ def search(self, nums: List[int], target: int) -> int:
         else:
             low = mid + 1
     return -1
+
+# time complexity - O(logn), space complexity - O(1)
