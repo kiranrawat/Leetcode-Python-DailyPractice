@@ -24,3 +24,17 @@ def hasCycle(self, head: Optional[ListNode]) -> bool:
     return False
 
     # Time and space complexity - O(n), O(1)
+
+    # another solution using hashset (non optimal)
+    # seen = set()
+    # cur = head
+
+    # while cur:
+    #     if cur in seen:
+    #         return True
+    #     seen.add(cur)
+    #     cur = cur.next
+
+    # return False
+
+    # Time and space complexity - O(n), O(n)
