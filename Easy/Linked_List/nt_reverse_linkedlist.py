@@ -6,6 +6,6 @@ def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
         curr.next = prev
         prev = curr
         curr = nxt
-    return prev
+    return prev  # return head
 
 # time and space complexity - O(n), O(1)
