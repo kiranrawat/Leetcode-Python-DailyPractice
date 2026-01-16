@@ -23,3 +23,20 @@ class Solution:
         # time and space complexity - O(n), O(n)
 
         # iterative approach
+
+        res = []
+        stack = []
+        cur = root
+
+        while cur or stack:
+            # extreme left
+            while cur:
+                stack.append(cur)
+                cur = cur.left
+            cur = stack.pop()
+            res.append(cur.val)
+            cur = cur.right
+        return res
+
+        # time  - O(n)
+        # space complexity - stack - O(n), list - O(n)
