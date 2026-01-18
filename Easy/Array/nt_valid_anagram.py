@@ -21,3 +21,14 @@ class Solution:
 
 # time complexity - O(n + m) given length of s is n and length of t is m
 # space complexity - O(1)
+
+
+# Brute Force Approach
+
+def isAnagram(self, s: str, t: str) -> bool:
+
+    if len(s) != len(t):
+        return False
+
+    return sorted(s) == sorted(t)
+    # time complexity - O(nlogn) + O(mlogm), given n is the length of string s and m is the length of string t
