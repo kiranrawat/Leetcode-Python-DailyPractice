@@ -1,26 +1,18 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
-        count = 0
-        count_dict_1 = {}
-        count_dict_2 = {}
+        count_t = {}
+        count_s = {}
         if len(s) != len(t):
             return False
 
-        for letter_s in s:
-            if letter_s in count_dict_1.keys():
-                count_dict_1[letter_s] += 1
-            else:
-                count_dict_1[letter_s] = 1
-        for letter_t in t:
-            if letter_t in count_dict_2.keys():
-                count_dict_2[letter_t] += 1
-            else:
-                count_dict_2[letter_t] = 1
+        for i in range(len(s)):
+            count_s[s[i]] = 1 + count_s.get(s[i], 0)
+            count_t[t[i]] = 1 + count_t.get(t[i], 0)
 
-        return count_dict_1 == count_dict_2
+        return count_s == count_t
 
 # time complexity - O(n + m) given length of s is n and length of t is m
-# space complexity - O(1)
+# space complexity - O(1) since we have at most 26 different characters.
 
 
 # Brute Force Approach
